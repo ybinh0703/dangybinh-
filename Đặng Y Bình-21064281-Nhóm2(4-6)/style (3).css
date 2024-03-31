@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(59, 163, 99);
+}
+
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 32px;
+}
+
+.col-2 {
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-10 {
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.top h1 {
+    font-size: 2rem;
+    color: rgb(116, 241, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.top h4 {
+    font-size: 1.2rem;
+    color: rgb(251, 251, 251);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 40px;
+    margin-top: 20px;
+}
+
+header .left {
+    display: flex;
+}
+
+header .left li {
+    list-style: none;
+}
+
+header .left li a {
+    margin: 0 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+}
+
+a.right {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
+
+.content {
+    margin-top: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px;
+    background-color: #fff;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.content .box {
+    background: rgb(255, 254, 254);
+    margin: 15px 0;
+    height: 150px;
+    padding: 10px;
+}
+
+.content .box span{
+    font-weight: 300;
+}
+
+.right-content{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.right-content b{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    margin:20px 0;
+}
+
+.right-content-box{
+    background-color: rgb(250, 250, 252);
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.right-content-box h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.right-content p{
+    font-size: 1rem;
+    color: black;
+}
+
+.right-content-social{
+    display: flex;
+    width: 100%;
+}
+
+.right-content-social a{
+    text-decoration: none;
+    display: block;
+}
